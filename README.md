@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 git practice
 
 React로 사고하기
@@ -34,3 +35,9 @@ https://ko.react.dev/learn/adding-interactivity
  [...arr, newItem] 배열 전개 구문을 사용하여 새 항목을 포함한 배열을 생성
  filter()와 map()을 사용
  Immer를 사용하여 코드 간결성을 유지
+=======
+git practice
+
+React로 사고하기
+https://ko.react.dev/learn/thinking-in-react
+>>>>>>> e601799e176067c23ec8202036d47250786b9ce6
