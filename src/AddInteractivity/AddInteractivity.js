@@ -1,0 +1,33 @@
+
+
+function AddInteractivity() {
+    return (
+        <Toolbar
+            onPlayMovie={() => alert('Playing!')}
+            onUploadImage={() => alert('Uploading!')}
+        />
+    )
+}
+
+function Toolbar({onPlayMovie, onUploadImage}) {
+    return (
+        <div>
+            <Button onClick={onPlayMovie}>
+                PlayMovie
+            </Button>
+            <Button onClick={onUploadImage}>
+                Upload Image
+            </Button>
+        </div>
+    )
+}
+
+function Button({onClick, children}) {
+    return (
+        <button onClick={onClick}>
+            {children}
+        </button>
+    )
+}
+
+export default AddInteractivity
